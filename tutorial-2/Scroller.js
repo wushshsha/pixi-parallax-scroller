@@ -1,10 +1,9 @@
 function Scroller(stage) {
-	this.far = new Far();
+	this.far = new Far();//创建远景
 	stage.addChild(this.far);
 
-	this.mid = new Mid();
+	this.mid = new Mid();//创建近景
 	stage.addChild(this.mid);
-
 	this.viewportX = 0;
 }
 
